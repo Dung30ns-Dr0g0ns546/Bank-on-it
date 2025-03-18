@@ -1,6 +1,6 @@
-class CheckingAccount implements HasMenu
+class CheckingAccount implements HasMenu()
 
-double balance
+double balance()
 
     CheckingAccount()
 
