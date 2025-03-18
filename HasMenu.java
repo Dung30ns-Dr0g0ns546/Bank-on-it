@@ -1,4 +1,4 @@
-interface HasMenu 
-
-  string menu()
-  void start()
+interface HasMenu{
+  string menu();
+  void start();
+}

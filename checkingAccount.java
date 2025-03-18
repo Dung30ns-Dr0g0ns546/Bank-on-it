@@ -16,13 +16,25 @@ double balance(){
 
     string getBalanceString()
 
-    void setBalance(double balance)
+    public void setBalance(double balance){
+    this.balance = balance;
 
-    void checkBalance()
+    public void checkBalance()
+    System.out.println("Current balance: " + this.getBalanceString());
+    }
 
-    private double getDouble()
+    private double getDouble(){
+      Scanner input = new Scanner(System.in);
+      String sResult = input.nextLine();
+      double result = 0d;
+      try {
+        result = Double.parseDouble(sResult);
+      } catch
+    }
 
-    void makeDeposit()
+    public void makeDeposit(){
 
-    void makeWithdrawal()
+    }
+
+    public void makeWithdrawal()
 }
