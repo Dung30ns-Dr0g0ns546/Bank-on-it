@@ -1,10 +1,10 @@
 class CheckingAccount implements HasMenu
 
-double balance()
+double balance(){
 
-    CheckingAccount()
+    CheckingAccount();
 
-    CheckingAccount(double balance)
+    CheckingAccount(double balance);
 
     main()
 
@@ -25,3 +25,4 @@ double balance()
     void makeDeposit()
 
     void makeWithdrawal()
+}
