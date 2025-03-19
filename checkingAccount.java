@@ -8,13 +8,27 @@ double balance(){
 
     main()
 
-    string menu()
+    string menu(){
+        System.out.println("0) Exit");
+        System.out.println("1) Check balance");
+        System.out.println("2) Make a deposit");
+        System.out.println("3) Make a withdrawal");
+
+        System.in.println();
+        System.out.println("Please enter 0-3: ");
+
+        String result = input.nextLine();
+        return result;
+    }    
 
     void start()
 
-    double getBalance()
+    public double getBalance(){
+        return this.balance;
+    }
 
-    string getBalanceString()
+    string getBalanceString(){
+        String result = String.format(
 
     public void setBalance(double balance){
     this.balance = balance;
@@ -36,5 +50,7 @@ double balance(){
 
     }
 
-    public void makeWithdrawal()
+    public void makeWithdrawal(){
+
+    }    
 }
